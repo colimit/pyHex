@@ -9,3 +9,5 @@ hex.c is c ai which currently outputs its opinion best starting square for red a
 The highlight of this code is a fast algorithm for evaluating the outcome of a random game continuation from a 
 given position, capable of generating and evaluating a million positions in about a minute, using bit operations on
 an array of integers representing the rows of the board.
+
+Note that this c code is not currently integrated with the python program.
